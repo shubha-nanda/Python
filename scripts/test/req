@@ -1,0 +1,47 @@
+Considering the below excel/ CSV as input, using python identify datatype of each column. Note: if the column has mixed datatype values for example 50% string values and 50% float values, identify the datatype counts as shown below in the output *
+Captionless Image
+Your answer
+
+Sample Output format:
+{
+  "result": {
+    "column_types": {
+      "ID": "Float64", 
+      "UCity": "Float64", 
+      "UCityA": "Float64", 
+      "UHighway": "Float64", 
+      "UHighwayA": "Float64", 
+      "VClass": "String", 
+      "atvType": "String", 
+    }, 
+    "columns": [
+      "ID",
+      "UCity", 
+      "UCityA", 
+      "UHighway", 
+      "UHighwayA", 
+      "VClass", 
+      "atvType",
+    ], 
+    "mixedDataTypes": [
+      {
+        "name": "UHighway", 
+        "type": {
+          "Float64": 52, 
+          "String": 9
+        }
+      }, 
+      {
+        "name": "atvType", 
+        "type": {
+          "Float64": 50, 
+          "String": 11
+        }
+      }
+    ], 
+    "rows": 61
+  }
+}
+A copy of your responses will be emailed to the address you provided.
+
+Never submit passwords through Google Forms.
