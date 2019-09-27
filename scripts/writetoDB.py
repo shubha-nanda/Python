@@ -8,7 +8,7 @@ mydb=mysql.connector.connect(
     host="localhost",
     username="root",
     password="SYSTEM",
-    database="sakila"
+    database="world"
 )
 
 mycorsor=mydb.cursor()
